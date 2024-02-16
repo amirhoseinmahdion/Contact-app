@@ -1,0 +1,56 @@
+.container {
+  margin: 50px 120px;
+  width: 80%;
+  height: 250px;
+  background-color: rgb(255, 254, 254);
+  box-shadow: 2px 2px 2px 2px rgb(163, 159, 159);
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.container .from1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .form2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container input {
+  width: 40%;
+  height: 40px;
+  margin: 10px;
+  border: 0.5px solid rgb(203, 187, 187);
+  border-radius: 10px;
+  padding: 5px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(18, 18, 154);
+  color: aliceblue;
+  height: 40px;
+  border: 0.5px solid rgb(225, 221, 221);
+  border-radius: 10px;
+  padding: 5px;
+  width: 82%;
+  margin: 20px 100px;
+}
+.errormessage {
+  width: 80%;
+  margin: 20px 120px;
+  background-color: rgb(206, 185, 185);
+  border: 1px solid white;
+  color: rgb(201, 3, 3);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.errormessage p {
+  margin-left: 20px;
+}

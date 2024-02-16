@@ -1,0 +1,53 @@
+.conatiner {
+  margin: 70px 120px;
+  width: 80%;
+  height: 250px;
+}
+.conatiner h1 {
+  color: rgb(18, 18, 154);
+}
+.addcontact {
+  background-color: rgb(185, 176, 176);
+  border: 0.5px solid white;
+  border-radius: 8px;
+  margin: 20px;
+}
+.addcontact div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.addcontact p {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+span {
+  font-size: 20px;
+  background-color: rgb(18, 18, 154);
+  color: rgb(255, 254, 254);
+  border-radius: 100%;
+  padding: 5px;
+  margin-right: 5px;
+}
+button {
+  font-size: 20px;
+  background-color: rgb(18, 18, 154);
+  color: rgb(255, 254, 254);
+  border-radius: 100%;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+}
+.card {
+  background-color: rgb(255, 254, 254);
+  box-shadow: 1px 1px 1px 1px rgb(163, 159, 159);
+  padding: 30px;
+  
+}
+h2{
+  text-align: center;
+}

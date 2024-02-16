@@ -1,0 +1,23 @@
+.container{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.container h1{
+color: rgb(18, 18, 154);
+}
+.container a{
+    background-color: rgb(116, 110, 222);
+    padding: 2px;
+    border: 1px solid rgb(116, 110, 222)  ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container a:hover{
+    background-color: rgb(18, 18, 154);
+  
+}
